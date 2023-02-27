@@ -1,0 +1,55 @@
+/* styles for my form class exercise*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: beige;
+}
+form{
+    width: 400px;
+    margin: 20px auto;
+}
+fieldset{
+    border:1px solid thistle;
+    padding:10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+input[type=text],
+input[type=email],
+input[type=tel]{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize:none;
+    height:120px;
+    width: 100%;
+}
+input[type=submit]{
+    display: block;
+    margin-bottom: 10px;
+}
+select{
+    display: block;
+    margin-bottom: 10px;
+    }
+.error{
+    display: block;
+    color: red;
+    margin-bottom: 8px;
+}
+form ul{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
